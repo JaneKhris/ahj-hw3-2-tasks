@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+}
+
+.app-container {
+  width: 200px;
+  background-color: bisque;
+}
+
+.header-title {
+  padding-top: 10px;
+}
+
+.task-container {
+  display: flex;
+  height: 30px;
+  border:2px solid black;
+  border-radius: 15px;
+  position: relative;
+  margin-top: -2px;
+
+}
+
+.task-title {
+  width: 150px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+}
+
+.task-pin {
+  width: 15px;
+  height: 15px;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+
+  margin: auto 0;
+  background-color: aquamarine;
+
+  border: solid seagreen;
+  border-radius: 15px;
+}
+
+.task-pin_checked {
+  background-color: blue;
+}
+
+.error {
+  width:20%;
+  height: 20%;
+  background-color: red;
+  border-radius: 20%;
+  opacity: .3;
+  position: absolute;
+  margin: auto auto auto auto;
+  left: 10%;
+  top: 10%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.error-text {
+  margin-top: 10%;
+}
